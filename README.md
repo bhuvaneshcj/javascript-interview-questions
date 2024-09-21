@@ -7,6 +7,8 @@ Looking to ace your next JavaScript interview? This blog covers everything you n
 | No. | Questions |
 | --- | --------- |
 | 1 | [What is JavaScript?](#1-what-is-javascript) |
+| 2 | [What are the data types in JavaScript?](#2-what-are-the-data-types-in-javascript) |
+
 
 ### 1. What is JavaScript?
 
@@ -35,3 +37,20 @@ Here, clicking the button changes the text of the `<h1>` element using JavaScrip
 
 **[⬆ Back to Top](#table-of-contents)**
 
+
+### 2. What are the data types in JavaScript?
+
+JavaScript has several data types, including:
+
+- **Primitive types:** These types are immutable.
+    - ***String:*** Represents textual data.
+    - ***Number:*** Represents numbers (both integers and floating-point).
+    - ***Boolean:*** Represents true or false values.
+    - ***Null:*** Represents an intentional absence of any object value.
+    - ***Undefined:*** Represents a variable that has been declared but not assigned a value.
+    - ***Symbol:*** Introduced in ES6, used to create unique identifiers.
+    - ***BigInt:*** Introduced in ES2020, used for very large integers.
+
+- **Non-primitive types:** Objects, Arrays, Functions.
+
+**[⬆ Back to Top](#table-of-contents)**
