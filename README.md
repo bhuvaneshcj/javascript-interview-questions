@@ -6,7 +6,7 @@ Looking to ace your next JavaScript interview? This blog covers everything you n
 
 | No. | Questions |
 | --- | --------- |
-| 1 | [What is JavaScript?](#what-is-javascript) |
+| 1 | [What is JavaScript?](#1-what-is-javascript) |
 
 ### 1. What is JavaScript?
 
