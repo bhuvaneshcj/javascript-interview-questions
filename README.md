@@ -31,4 +31,7 @@ JavaScript is a high-level, interpreted programming language primarily used to c
 </body>
 </html>
 ```
-Here, clicking the button changes the text of the <h1> element using JavaScript.
+Here, clicking the button changes the text of the `<h1>` element using JavaScript.
+
+**[⬆ Back to Top](#table-of-contents)**
+
