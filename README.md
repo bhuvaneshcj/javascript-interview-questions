@@ -53,4 +53,13 @@ JavaScript has several data types, including:
 
 - **Non-primitive types:** Objects, Arrays, Functions.
 
+```
+let str = "Hello";  // String
+let num = 42;       // Number
+let bool = true;    // Boolean
+let undef;          // Undefined
+let empty = null;   // Null
+let symbol = Symbol('unique'); // Symbol
+let bigInt = 9007199254740991n; // BigInt
+```
 **[⬆ Back to Top](#table-of-contents)**
