@@ -80,3 +80,21 @@ console.log(5 === '5'); // false (because '5' is a string and 5 is a number)
 In general, it’s better to use `===` to avoid unexpected type coercion.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### 4. What is a variable?
+
+A variable in JavaScript is a container that holds a value. You can declare a variable using `var`, `let`, or `const`.
+
+- **var:** The oldest way to declare variables, scoped to the function or globally, and can be redeclared and updated.
+
+- **let:** Introduced in ES6, it's block-scoped and can be updated but not redeclared in the same scope.
+
+- **const:** Also block-scoped but cannot be updated or redeclared once assigned.
+
+```
+var name = "John";   // Global or function scope
+let age = 30;        // Block scope (within a specific block)
+const country = "USA"; // Block scope, cannot be reassigned
+```
+
+**[⬆ Back to Top](#table-of-contents)**
