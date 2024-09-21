@@ -8,7 +8,7 @@ Looking to ace your next JavaScript interview? This blog covers everything you n
 | --- | --------- |
 | 1 | [What is JavaScript?](#1-what-is-javascript) |
 | 2 | [What are the data types in JavaScript?](#2-what-are-the-data-types-in-javascript) |
-| 3 | [Difference between `==` and `===`](#3-difference-between--and) |
+| 3 | [Difference between `==` and `===`](#3-difference-between--and-) |
 
 
 ### 1. What is JavaScript?
