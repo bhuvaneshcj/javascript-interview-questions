@@ -8,6 +8,7 @@ Looking to ace your next JavaScript interview? This blog covers everything you n
 | --- | --------- |
 | 1 | [What is JavaScript?](#1-what-is-javascript) |
 | 2 | [What are the data types in JavaScript?](#2-what-are-the-data-types-in-javascript) |
+| 3 | [Difference between `==` and `===`](#3-difference-between--and) |
 
 
 ### 1. What is JavaScript?
@@ -62,4 +63,20 @@ let empty = null;   // Null
 let symbol = Symbol('unique'); // Symbol
 let bigInt = 9007199254740991n; // BigInt
 ```
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### 3. Difference between `==` and `===`?
+
+- **== (Abstract Equality):** Compares two values after performing type conversion if they are of different types.
+
+- **=== (Strict Equality):** Compares both value and type without converting the types.
+
+```
+console.log(5 == '5');  // true (because '5' is type-converted to number 5)
+console.log(5 === '5'); // false (because '5' is a string and 5 is a number)
+```
+
+In general, it’s better to use `===` to avoid unexpected type coercion.
+
 **[⬆ Back to Top](#table-of-contents)**
